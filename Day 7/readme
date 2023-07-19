@@ -1,0 +1,17 @@
+Studied String and Methods in String class.
+Methods in String class -
+  -length()
+  -toLowerCase()
+  -toUpperCase()
+  -charAt()
+  -indexOf()
+  -lastIndexOf()
+  -substring()
+  -equals()
+  -equalsIgnoreCase()
+  -compareTo()
+  -compareToIgnoreCase()
+  -startsWith()
+  -endsWith()
+  -trim()
+  -concat()
