@@ -1,0 +1,75 @@
+Methods of String Class
+
+1. length()
+	String str = "Hello";
+	int l = str.length();
+	s.o.p(l);
+	
+2. toLowerCase()
+	String str = "Hello";
+	str = str.toLowerCase();
+	s.o.p(str);		hello
+
+3. toUpperCase()
+
+4. charAt()
+	String str = "Hello";
+	char ch = str.charAt(1);
+	s.o.p(ch);		e
+	
+5. indexOf()
+	String str = "Hello";
+	int i = str.indexOf('e');
+	s.o.p(i);		3
+	
+6. lastIndexOf()
+	int i = str.lastIndexOf('l');
+	s.o.p(i);		3
+
+NOTE : If character not found, -1 is returned. Also, it is Case Sensitive.
+
+7. substring()
+	String s = "Good Evening";
+	String s1, s2;
+	s1 = s.substring(5,8);	Eve		5 is included and 8 is not included
+	s2 = s.substring(5);	Evening
+	
+8. equals()		Case Sensitive
+	String s1 = "Amit", s2 = "Anil";
+	boolean k = s1.equals(s2);
+	s.o.p(k);	false
+
+9. equalsIgnoreCase()	Case Insensitive
+
+10. compareTo()		Case Sensitive
+	String s1 = "Amit", s2 = "Anil";
+	int diff = s1.compareTo(s2);
+	
+11. compareToIgnoreCase()
+
+12. startsWith()
+
+13. endsWith()
+
+14. trim()
+	String s = "    Amit    Kapoor    ");
+	s = s.trim();
+	s.o.p(s);		"Amit    Kapoor"
+	
+15. concat()
+	String s1 = "abc", s2 = "xyz";
+	s = s1.concat(s2);
+	
+Questions:
+
+1. Wap to remove excess blanks from a given string.
+	input : Amit     Kapoor
+	output : Amit Kapoor
+
+2. Convert given name as
+	input : Amit Kumar Kapoor
+	output : A.K. Kapoor
+	
+3 Check whether string is palindrome or not
+	input : nitin
+	output : yes
