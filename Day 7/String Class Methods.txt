@@ -59,17 +59,3 @@ NOTE : If character not found, -1 is returned. Also, it is Case Sensitive.
 15. concat()
 	String s1 = "abc", s2 = "xyz";
 	s = s1.concat(s2);
-	
-Questions:
-
-1. Wap to remove excess blanks from a given string.
-	input : Amit     Kapoor
-	output : Amit Kapoor
-
-2. Convert given name as
-	input : Amit Kumar Kapoor
-	output : A.K. Kapoor
-	
-3 Check whether string is palindrome or not
-	input : nitin
-	output : yes
