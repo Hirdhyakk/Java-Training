@@ -1,0 +1,15 @@
+Inheritance
+    - Reusability
+    - Extendability
+
+Types of Inheritance
+    - Single
+    - Multilevel
+    - Hierarchical
+    
+    - Multiple (?)
+    - Hybrid (?)
+
+super
+abstract
+final
