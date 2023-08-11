@@ -1,0 +1,18 @@
+try, catch, throw, throws, finally.
+
+try {
+
+}
+catch(Exception e) {
+
+}
+
+try {
+
+}
+catch(Exception e) {
+
+}
+finally {
+
+}
