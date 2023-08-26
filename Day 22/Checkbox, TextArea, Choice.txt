@@ -1,0 +1,44 @@
+implements ItemListener
+
+Checkbox : 
+    Checkbox cb1, cb2;
+    init()
+    {
+        cb1 = new Checkbox("Cricket");
+        ___;
+
+        add(cb1);
+        add(cb2);
+
+        cb1.addActionListener();
+    }
+
+TextArea : 
+    TextArea ta1, ta2;
+
+    example.addItemListener();
+    public void itemStateChanged(ItemEvent ie)
+    {
+        if(ie.getSource()==ta1)
+        {
+            if(cb.getState==true)
+                ta2.setText(ta1.getText());
+            else
+                tat2.setText("");
+        }
+    }
+
+Choice : (Dropdown List)
+    Choice year, month, day;
+    year = new Choice();
+    month = new Choice();
+    day = new Choice();
+
+    year.add("Year");
+    month.add("Month");
+    day.add("Day");
+
+    for(int i=1900; i<=2100; i++)
+    {
+        year.add(i+"");
+    }
